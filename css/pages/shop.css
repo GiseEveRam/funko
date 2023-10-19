@@ -83,8 +83,19 @@
     flex-direction: column;
     flex-grow: 1;
     gap: var(--spacing-36);
-}
+}  
+/* .shop__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: var(--spacing-16) 0;
+  } */
+.shop__seccion{
+    display: flex;
+    flex-direction: row;
 
+
+}
 .shop__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -98,6 +109,7 @@
     display: flex;
     justify-content: center;
     gap: var(--spacing-12);
+    margin-bottom: 50px;
 }
 
 .pagination .pagination__link {
