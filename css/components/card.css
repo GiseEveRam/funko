@@ -19,7 +19,7 @@
   }
   
   .card-item__img--back {
-    display: none;
+    display: none; 
   }
   
   .card-item__cover:hover .card-item__img--back {
